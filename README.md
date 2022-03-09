@@ -1,8 +1,8 @@
-# AULA03
+# AULA 03
 
 IMERSÃO DEV_ DA ALURA - [AULA/03](https://imersao.dev/aulas/aula03-mentalista).
 
-Conteúdo detalhado desta aula:
+## Conteúdo detalhado desta aula:
 
 
 • Criar a lógica por trás do "chute" com if, else if e else;
