@@ -1,10 +1,12 @@
-body {
-    font-family: "Roboto Mono", monospace;
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap");
+
+* body {
+  font-family: "Rajdhani";
     min-height: 600px;
-    background-image: url("https://i.pinimg.com/564x/51/36/ce/5136ce46a7545efbd35a92f5dae7426f.jpg");
-    background-color: #128da3;
-    background-size: cover;
-    background-position: center bottom;
+    background-image: url("https://freepikpsd.com/file/2019/10/bird-siluet-png-Transparent-Images.png");
+    background-color: #a8d9e2;
+    background-position: 350px;
+    background-position: top;
     background-repeat: no-repeat;
   }
   
@@ -14,13 +16,13 @@ body {
     height: 5vh;
     /* margin-left: auto;
     margin-right: auto; */
-    margin: 0 0 1px;
+    margin: 60px;
   }
   
   .page-title {
     color: #000;
     margin: 0 0 60px;
-    font-family: "Times New Roman";
+    font-family: "Rajdhani";
   }
   
   .page-subtitle {
