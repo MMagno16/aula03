@@ -2,67 +2,67 @@
 
 * body {
   font-family: "Rajdhani";
-    min-height: 600px;
-    background-image: url("https://freepikpsd.com/file/2019/10/bird-siluet-png-Transparent-Images.png");
-    background-color: #a8d9e2;
-    background-position: 350px;
-    background-position: top;
-    background-repeat: no-repeat;
-  }
-  
-  .container {
-    text-align: center;
-    padding: 5px;
-    height: 5vh;
-    /* margin-left: auto;
-    margin-right: auto; */
-    margin: 60px;
-  }
-  
-  .page-title {
-    color: #000;
-    margin: 0 0 60px;
-    font-family: "Rajdhani";
-  }
-  
-  .page-subtitle {
-    color: #000;
-    margin-top: 20px;
-  }
-  
-  /* .page-logo {
+  min-height: 600px;
+  background-image: url("https://www.pngkey.com/png/full/841-8410473_ball-glass-white-computer-file-free-photo-png.png");
+  background-color: #a8d9e2;
+  background-position: 400px;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 5px;
+  height: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 150px;
+  margin: large;
+}
+
+.page-title {
+  color: #000;
+  margin: 0 0 60px;
+  font-family: "Rajdhani";
+}
+
+.page-subtitle {
+  color: #000;
+  margin-top: 20px;
+}
+
+/* .page-logo {
     width: 300px;
   } */
-  
-  .alura-logo {
-    width: 50px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
+
+.alura-logo {
+  width: 50px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 300px) {
+  body {
+    min-height: 600px;
   }
-  
-  @media (max-height: 300px) {
-    body {
-      min-height: 600px;
-    }
-  }
-  
-  input {
-    margin: 30px;
-    padding: 6px;
-    border-radius: 3px;
-  }
-  
-  button {
-    margin-top: 5px;
-    padding: 4px 8px;
-    border-radius: 10px;
-    background: #05cef2;
-  }
-  
-  .resultado {
-    color: #000;
-    text-align: center;
-    margin-top: 6px;
-  }
-  
+}
+
+input {
+  margin: 30px;
+  padding: 6px;
+  border-radius: 3px;
+}
+
+button {
+  margin-top: 5px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: pink;
+}
+
+.resultado {
+  color: #000;
+  text-align: center;
+  margin-top: 2px;
+}

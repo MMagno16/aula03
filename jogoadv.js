@@ -19,16 +19,15 @@ function Chutar() {
     } else {
       if (numeroSecreto > chute && tentativas < 3) {
         elementoResultado.innerHTML =
-          "Você errou. O número secreto é MAIOR que o número que você digitou! Tente mais uma vez!";
+          "Você errou. O número é MAIOR que o número que você digitou! <br> Tente mais uma vez!";
       } else if (numeroSecreto < chute && tentativas < 3) {
         elementoResultado.innerHTML =
-          "Você errou. O número secreto é MENOR que o número que você digitou!";
+          "Você errou. O número é MENOR que o número que você digitou!";
       }
       tentativas += 1;
       if (tentativas >= 3) {
         elementoResultado.innerHTML =
-          "Você errou 3 vezes. Que pena! O número era " +
-          numeroSecreto;
+          "Você errou 3 vezes. Que pena! O número era " + numeroSecreto;
       }
     }
   }
